@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.12'
+	
+	// Axon Framework
+	compile 'org.axonframework:axon-core:2.4.3'
+	testCompile 'org.axonframework:axon-test:2.4.3'
+	
+    testCompile 'junit:junit:4.12'
+}
